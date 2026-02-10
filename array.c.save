@@ -9,7 +9,7 @@ void not_decay(int (*arr)[5]){
 //arr doesn't decays because we  used & 
 printf("Not decays\n");
 printf("Size of an array is: %zu\n",sizeof(*arr));
-printf("Value of int *(arr): %d \n",**arr);
+printf("Value of int **(arr): %d \n",**arr);
 
 };
 
